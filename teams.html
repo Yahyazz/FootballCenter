@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Football Center | Teams</title>
+    <meta name="description" content="Football Center PWA">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#EF5350" />
+    <link rel="icon" href="image/logo-192.png" />
+    <link rel="apple-touch-icon" href="image/logo-192.png" />
+
+    <!-- Stylesheet Import -->
+    <link rel="stylesheet" type="text/css" media="screen,projection" href="css/materialize.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen,projection" href="css/style.css" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+</head>
+
+<body>
+    <!-- NAV START -->
+    <nav class="red lighten-1" role="navigation">
+        <div class="nav-wrapper container">
+            <a href="./index.html" class="brand-logo" id="logo-container">FC</a>
+            <a href="./index.html" class="sidenav-trigger" data-target="nav-mobile">
+                <i class="material-icons">arrow_back</i>
+            </a>
+
+            <ul class="topnav right hide-on-med-and-down"></ul>
+            <ul class="sidenav" id="nav-mobile"></ul>
+        </div>
+    </nav>
+    <!-- NAV END -->
+    <div class="center-align" id="loader"></div>
+    <div class="container" id="body-content"></div>
+
+    <div id="saveBtn" class="fixed-action-btn">
+        <a class="btn-large btn-floating red">
+            <i class="large material-icons">save</i>
+        </a>
+        
+    </div>
+    <div id="deleteBtn" class="fixed-action-btn">
+        <a class="btn-floating btn-large red">
+            <i class="large material-icons">delete</i>
+        </a>
+    </div>
+
+    <script src="js/materialize.min.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/idb.js"></script>
+    <script src="js/db.js"></script>
+    <script src="js/detail.js"></script>
+</body>
+
+</html>

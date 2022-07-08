@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald&display=swap');
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: "Bebas Neue";
+}
+
+#body-content {
+    flex: 1 0 auto;
+}
+
+.subtitle {
+    text-align: center;
+}
+
+.card-content p,
+.card-reveal p {
+    font-family: 'Oswald';
+}
+
+.darkBlack {
+    background-color: #232f3c;
+}
+
+.preloader-background {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;	
+}
